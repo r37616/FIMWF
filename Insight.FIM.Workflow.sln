@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insight.FIM.Workflow", "Insight.FIM.Workflow\Insight.FIM.Workflow.csproj", "{8125C9CB-516B-4992-9D67-FCDDB54A12F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insight.FIM.Controls", "Insight.FIM.Controls\Insight.FIM.Controls.csproj", "{B5F3F0FD-4037-4E81-9C00-2CAFCE76A68A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{72F5E3BB-4ADB-458B-8EB3-AAECFE17D193}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\Ensynch.dll = Assemblies\Ensynch.dll
+		Assemblies\Ensynch.FIM.dll = Assemblies\Ensynch.FIM.dll
+		Assemblies\Ensynch.FIM.Workflow.dll = Assemblies\Ensynch.FIM.Workflow.dll
+		Assemblies\ExpressionEvaluator.dll = Assemblies\ExpressionEvaluator.dll
+		Assemblies\log4net.dll = Assemblies\log4net.dll
+		Assemblies\RemoteLoader.dll = Assemblies\RemoteLoader.dll
+		Assemblies\wwScripting.dll = Assemblies\wwScripting.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{59168D80-2C58-4919-9EE9-23358AAF8141}"
+	ProjectSection(SolutionItems) = preProject
+		Documenation\EventLogInstallApp.exe = Documenation\EventLogInstallApp.exe
+		Documenation\gacutil.exe = Documenation\gacutil.exe
+		Documenation\Install.bat = Documenation\Install.bat
+		Documenation\ReadMe.txt = Documenation\ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8125C9CB-516B-4992-9D67-FCDDB54A12F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8125C9CB-516B-4992-9D67-FCDDB54A12F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8125C9CB-516B-4992-9D67-FCDDB54A12F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8125C9CB-516B-4992-9D67-FCDDB54A12F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F3F0FD-4037-4E81-9C00-2CAFCE76A68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F3F0FD-4037-4E81-9C00-2CAFCE76A68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F3F0FD-4037-4E81-9C00-2CAFCE76A68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F3F0FD-4037-4E81-9C00-2CAFCE76A68A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
