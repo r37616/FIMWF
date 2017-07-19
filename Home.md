@@ -1,0 +1,4 @@
+**Project Description**
+This is a Forefront Identity Manager Workflow Activity that will allow a user to define the VB or C# code they want executed at run time.  The Workflow will compile the code and run it in a separate app domain when its initiated ([http://www.west-wind.com/presentations/dynamicCode/DynamicCode.htm](http://www.west-wind.com/presentations/dynamicCode/DynamicCode.htm)).  The UI will allow you to specify the input parameters, using statements, assemblies to include and where the result of the code execution will go. 
+
+This concept was first introduced at [http://www.apollojack.com/2012/02/last-fim-workflow-you-will-ever-need.html](http://www.apollojack.com/2012/02/last-fim-workflow-you-will-ever-need.html) and I have been given approval to make the code available to you.  I hope it helps!
